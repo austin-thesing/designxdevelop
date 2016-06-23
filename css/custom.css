@@ -12,3 +12,17 @@ div.banner {
         margin-top: 10% !important; }
       div.banner div.container div.banner-content p {
         margin-top: 3%; }
+
+section {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  width: 100%; }
+
+div.about div.row.about-bg {
+  background: blue; }
+
+div.project div.row.project-bg {
+  background: red; }
+
+div.contact div.row.contact-bg {
+  background: grey; }

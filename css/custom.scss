@@ -23,3 +23,35 @@ div.banner {
 .logo {
   //
 }
+
+section {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  width: 100%;
+  // background: red;
+}
+
+// .full-width-div {
+//   background: red;
+//   position: absolute;
+//   width: 100%;
+//   left: 0;
+// }
+
+div.about {
+  div.row.about-bg {
+    background: blue;
+  }
+}
+
+div.project {
+  div.row.project-bg {
+    background: red;
+  }
+}
+
+div.contact {
+  div.row.contact-bg {
+    background: grey;
+  }
+}
