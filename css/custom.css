@@ -1,0 +1,14 @@
+div.banner {
+  background-image: url("../img/banner_fix.jpg");
+  width: auto;
+  background-size: cover; }
+  div.banner div.container {
+    height: 500px;
+    max-height: 100%; }
+    div.banner div.container div.banner-content {
+      padding: 3%; }
+      div.banner div.container div.banner-content h1 {
+        text-align: center;
+        margin-top: 10% !important; }
+      div.banner div.container div.banner-content p {
+        margin-top: 3%; }

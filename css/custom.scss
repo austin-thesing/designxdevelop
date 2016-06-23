@@ -1,0 +1,25 @@
+@import "palette.scss";
+
+div.banner {
+  background-image: url('../img/banner_fix.jpg');
+  width: auto;
+  background-size: cover;
+  div.container {
+    height: 500px;
+    max-height: 100%;
+    div.banner-content {
+      padding: 3%;
+      h1 {
+        text-align: center;
+        margin-top: 10% !important;
+      }
+      p {
+        margin-top: 3%;
+      }
+    }
+  }
+}
+
+.logo {
+  //
+}
