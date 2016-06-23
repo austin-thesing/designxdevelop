@@ -36,3 +36,8 @@ div.contact div.row.contact-bg {
   background: grey;
   height: 500px;
 }
+
+i.fa {
+  margin-right: 10px;
+  font-weight: 600;
+}
