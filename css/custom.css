@@ -1,28 +1,38 @@
 div.banner {
   background-image: url("../img/banner_fix.jpg");
   width: auto;
-  background-size: cover; }
-  div.banner div.container {
-    height: 500px;
-    max-height: 100%; }
-    div.banner div.container div.banner-content {
-      padding: 3%; }
-      div.banner div.container div.banner-content h1 {
-        text-align: center;
-        margin-top: 10% !important; }
-      div.banner div.container div.banner-content p {
-        margin-top: 3%; }
+  background-size: cover;
+}
+div.banner div.container {
+  height: 500px;
+  max-height: 100%;
+}
+div.banner div.container div.banner-content {
+  padding: 3%;
+}
+div.banner div.container div.banner-content h1 {
+  text-align: center;
+  margin-top: 10% !important;
+}
+div.banner div.container div.banner-content p {
+  margin-top: 3%;
+}
 
 section {
   padding-top: 10%;
   padding-bottom: 10%;
-  width: 100%; }
+  width: 100%;
+}
 
 div.about div.row.about-bg {
-  background: blue; }
+  background: blue;
+}
 
 div.project div.row.project-bg {
-  background: red; }
+  background: red;
+}
 
 div.contact div.row.contact-bg {
-  background: grey; }
+  background: grey;
+  height: 500px;
+}
