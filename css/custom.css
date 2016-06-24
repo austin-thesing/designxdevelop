@@ -1,3 +1,25 @@
+/* Coolors Exported Palette - coolors.co/f15025-012438-e6e8e6-ced0ce-191919 */
+body {
+  font-family: "Hind", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+nav a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}
+nav a.logo {
+  font-family: "Montserrat", sans-serif;
+}
+
 div.banner {
   background-image: url("../img/banner_fix.jpg");
   width: auto;
@@ -13,6 +35,10 @@ div.banner div.container div.banner-content {
 div.banner div.container div.banner-content h1 {
   text-align: center;
   margin-top: 10% !important;
+}
+div.banner div.container div.banner-content img.logo {
+  width: 80%;
+  max-width: 500px;
 }
 div.banner div.container div.banner-content p {
   margin-top: 3%;
