@@ -1,0 +1,82 @@
+@import "palette.scss";
+@import "fonts.scss";
+
+nav {
+  a {
+    font-family: $heading-font;
+    font-size: 12px;
+  }
+  a.logo {
+    font-family: $heading-font;
+    // font-size: 24px;
+    // font-weight: 700;
+  }
+}
+
+div.banner {
+  background-image: url('../img/banner_fix.jpg');
+  width: auto;
+  background-size: cover;
+  div.container {
+    height: 500px;
+    max-height: 100%;
+    div.banner-content {
+      padding: 3%;
+      h1 {
+        text-align: center;
+        margin-top: 10% !important;
+      }
+      img.logo {
+        width: 80%;
+        max-width: 500px;
+        // margin-top: 10%;
+      }
+      p {
+        margin-top: 3%;
+      }
+    }
+  }
+}
+
+section {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  width: 100%;
+  // background: red;
+}
+
+// .full-width-div {
+//   background: red;
+//   position: absolute;
+//   width: 100%;
+//   left: 0;
+// }
+
+div.about {
+  div.row.about-bg {
+    background: blue;
+    // height: 500px;
+  }
+}
+
+div.project {
+  div.row.project-bg {
+    background: red;
+  }
+}
+
+div.contact {
+  div.row.contact-bg {
+    background: grey;
+    height: 500px;
+  }
+}
+
+i.fa {
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.boxed-link a {
+  text-decoration: none;
+}

@@ -3,20 +3,207 @@
   <head>
     <meta charset="utf-8">
     <title>Design X Develop</title>
+    <!-- Enables Responsiveness in Bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/custom.css" media="screen" title="no title" charset="utf-8">
+    <script src="https://use.fontawesome.com/3a7f69a091.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500|Montserrat:400,700" rel="stylesheet">
     <!-- Uncomment for Production -->
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h1 class="media media-heading">Welcome</h1>
+<!-- BEGIN NAVBAR -->
+    <div class="nav">
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand logo" href="http://designxdevelop.com" class="nav navbar-link">Design X Develop</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <!-- <ul class="nav navbar-nav">
+              <li><a href="#">About Me<span class="sr-only">(current)</span></a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Contact</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Projects</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul> -->
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#about"><i class="fa fa-sticky-note-o"></i>About<!--<span class="sr-only">(current)</span>--></a></li>
+              <li><a href="#projects"><i class="fa fa-code"></i>Projects</a></li>
+              <li><a href="#contact"><i class="fa fa-envelope-o"></i>Contact</a></li>
+              <li><a href="#social"><i class="fa fa-heart-o"></i>Social</a></li>
+              <li><a href="https://github.com/austin-thesing" target="_blank"><i class="fa fa-github"></i>GitHub</a></li>
+              <!-- <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">The Vision<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">As a Developer</a></li>
+                  <li><a href="#">For Design X Develop</a></li>
+                  <li><a href="https://github.com/austin-thesing" target="_blank">Find me on GitHub</a></li> -->
+                  <!-- <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li> -->
+                </ul>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </div>
+<!-- END NAVBAR -->
+
+<!-- BEGIN BANNER  -->
+    <div class="jumbotron banner">
+      <div class="container">
+        <div class="banner-content">
+          <!-- <h1 class="media media-heading">Design X Develop</h1> -->
+          <h1><img src="img/logo-black2x.png" alt="" class="logo"/></h1>
+          <p class="media media-body">
+            Fugiat aliquip voluptate dolore eiusmod laborum ad nostrud deserunt ex amet est. Laboris amet nulla aliquip adipisicing sint consequat consequat reprehenderit ea in deserunt. Consectetur laboris reprehenderit id velit id ut ex aliqua ad pariatur nostrud officia incididunt tempor.
+          </p>
+        </div>
+      </div>
+    </div>
+<!-- END BANNER -->
+
+<!-- BEGIN MAIN CONTENT  -->
+    <div class="container-fluid" style="margin-top: -30px;">
+    <!-- ABOUT SECTION -->
+    <div class="about">
+      <div class="row about-bg">
+        <div class="container">
+          <section id="about">
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="media media-heading">About</h1>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <p class="media media-body">Consectetur Lorem ullamco occaecat cillum dolor mollit qui ea pariatur duis enim cupidatat proident. Id reprehenderit deserunt sit eiusmod exercitation exercitation sunt ullamco qui aliqua aliqua dolore adipisicing reprehenderit esse quis. Duis qui minim quis amet excepteur occaecat qui tempor ullamco non irure commodo. In ut irure amet ullamco duis eu ad commodo amet ipsum elit laborum aliqua aliqua nisi magna irure. Occaecat aliquip magna incididunt aliquip in elit labore. Dolore pariatur mollit sunt incididunt eiusmod enim duis nisi incididunt.</p>
+                </div>
+                <div class="col-md-6">
+                  <p class="media media-body">Consectetur Lorem ullamco occaecat cillum dolor mollit qui ea pariatur duis enim cupidatat proident. Id reprehenderit deserunt sit eiusmod exercitation exercitation sunt ullamco qui aliqua aliqua dolore adipisicing reprehenderit esse quis. Duis qui minim quis amet excepteur occaecat qui tempor ullamco non irure commodo. In ut irure amet ullamco duis eu ad commodo amet ipsum elit laborum aliqua aliqua nisi magna irure. Occaecat aliquip magna incididunt aliquip in elit labore. Dolore pariatur mollit sunt incididunt eiusmod enim duis nisi incididunt.</p>
+                </div>
+              </div>
+              <!-- <div class="row resume">
+                <div class="col-sm-4 boxed-link">
+                  <a href="AustinThesing-Resume.pdf">
+                    <h1><i class="fa fa-file" style="color: white;"></i></h1>
+                    <h4>Download Resume</h4>
+                  </a>
+                </div>
+              </div> -->
+            </div>
+          </section>
         </div>
       </div>
     </div>
 
+<!-- PROJECTS SECTION  -->
+    <div class="project">
+      <div class="row project-bg">
+        <div class="container">
+          <section id="projects">
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="media media-heading">Projects</h1>
+              </div>
+              <div class="row project-row">
+                <div class="col-md-4">
+                  <div class="project">
+                    <img src="img/sample-img.png" alt="" width="100%" />
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="project">
+                    <img src="img/sample-img.png" alt="" width="100%" />
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="project">
+                    <img src="img/sample-img.png" alt="" width="100%" />
+                  </div>
+                </div>
+              </div>
+              <div class="row project-row">
+                <div class="col-md-4">
+                  <div class="project">
+                    <img src="img/sample-img.png" alt="" width="100%" />
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="project">
+                    <img src="img/sample-img.png" alt="" width="100%" />
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="project">
+                    <img src="img/sample-img.png" alt="" width="100%" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <!-- START CONTACT SECTION -->
+      <div class="contact">
+        <div class="row contact-bg">
+          <div class="container">
+            <section id="contact">
+              <div class="row">
+                <h1 class="media media-heading">Contact</h1>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    <!-- END CONTACT SECTION -->
+
+    <!-- START GITHUB SECTION -->
+      <div class="social">
+        <div class="row social-bg">
+          <div class="container">
+            <section id="social">
+              <div class="row github">
+                <h1 class="media media-heading">Find me on GitHub <i class="fa fa-github"></i></h1>
+              </div>
+              <div class="row social-media">
+                <h1>Social Media</h1>
+              </div>
+              <div class="row footer-info">
+                <p>
+                  Test
+                </p>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    <!-- END GITHUB SECTION -->
+
+    </div>
+<!-- END MAIN CONTENT -->
     <!-- Bootstrap JS & JQuery  -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
